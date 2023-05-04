@@ -1,0 +1,12 @@
+.animals{
+    background-color: burlywood;
+    list-style-type: "\1F431";
+    border: 10px solid red;
+    padding: 2rem;
+    margin: 0;
+    background-clip: content-box;
+}
+.animal-content{
+    font-size: 1.5rem;
+    text-decoration: none;
+}

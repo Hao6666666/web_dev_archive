@@ -1,0 +1,92 @@
+.data__page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5rem;
+  background-color: oldlace;
+}
+
+h1 {
+  background-color: coral;
+  width: fit-content;
+  color: wheat;
+
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+
+  font-size: large;
+  background-color: antiquewhite;
+  width: 20rem;
+}
+
+.stored__word__description {
+  font-size: large;
+}
+
+.word {
+  background-color: burlywood;
+  width: fit-content;
+  color: black;
+
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.outgoing {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: inline-grid;
+}
+
+input {
+  width: 20rem;
+  background-color: whitesmoke;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: white;
+}
+
+button {
+  min-width: 10rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #22223b;
+  color: antiquewhite;
+  font-size: large;
+  width: 10rem;
+}
+
+.logoutbtn {
+  min-width: 10rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: red;
+  color: white;
+  font-size: large;
+  width: 10rem;
+}

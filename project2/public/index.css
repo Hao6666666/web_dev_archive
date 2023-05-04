@@ -1,0 +1,160 @@
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 0.625rem;
+  padding: 3rem;
+  background-color: oldlace;
+  width: 50%;
+}
+
+form,
+p {
+  text-align: center;
+}
+
+.state-YES {
+  font-size: large;
+  font-family: italic;
+  font-weight: bold;
+  color: green;
+}
+.state-NO {
+  font-size: large;
+  font-family: italic;
+  font-weight: bold;
+  color: red;
+}
+
+h1 {
+  text-align: center;
+
+  color: #22223b;
+}
+
+.error-messages {
+  margin-bottom: 1rem;
+  background-color: antiquewhite;
+  color: red;
+  padding: 1rem;
+  font-size: large;
+  border-radius: 1rem;
+  border: 1px solid red;
+  width: fit-content;
+}
+
+label {
+  font-size: large;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #22223b;
+  color: antiquewhite;
+  font-size: large;
+  width: 100%;
+}
+
+.users {
+  grid-area: users;
+
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  background-color: white;
+  overflow-y: auto;
+
+  list-style-type: none;
+}
+
+.user {
+  background-color: pink;
+  border-radius: 0.625rem;
+
+  border: 1px solid red;
+  padding: 0;
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.messages {
+  min-height: 2rem;
+  background-color: navajowhite;
+  padding: 1rem;
+  overflow-y: auto;
+  list-style-type: none;
+  max-height: 10rem;
+  border-radius: 0.5rem;
+}
+
+.username {
+  margin: auto 1rem;
+  background-color: pink;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.sender-info {
+  display: flex;
+}
+
+.message-text {
+  margin: 0;
+  margin-top: auto;
+
+  vertical-align: middle;
+  padding: 0.8rem;
+  border: 1px dashed black;
+
+  background-color: white;
+  border-radius: 0.625rem;
+}
+
+.outgoing {
+  grid-area: outgoing;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 2rem;
+}
+
+.user-input,
+.text-input {
+  width: -webkit-fill-available;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0.875rem 1.25rem;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+
+.user-input,
+.text-input:hover {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login-status {
+  display: flex;
+  flex-direction: row;
+}

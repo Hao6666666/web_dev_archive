@@ -1,0 +1,273 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}
+
+.mypage-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.mypage-btn:hover {
+  text-decoration: underline;
+}
+
+/* Content Styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-form {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.add-post {
+  flex: 1;
+  padding: 0.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  border: 3px solid black;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.post-btn {
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.post-btn:hover {
+  background-color: #444;
+}
+
+.postcards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-gap: 2rem;
+}
+
+.postcard {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.postcard h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.postcard p {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.comment-form {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.add-comment {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.comment-btn {
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.comment-btn:hover {
+  background-color: #444;
+}
+
+.comments {
+  margin-top: 1rem;
+}
+
+.comments ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.comments li {
+  margin-bottom: 0.5rem;
+}
+
+.comments p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.login-form label span {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-username {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  background-color: #333;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #444;
+}
+.status {
+  background-color: #ffcccc;
+  color: #f00;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #f00;
+}
+
+.card__pic {
+  width: 90%;
+}
+
+.user-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-list,
+.online {
+  font-weight: bolder;
+  margin: 0;
+}
+
+.user-list {
+  list-style: circle;
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.user-list:hover {
+  cursor: pointer;
+}
+
+.likes {
+  color: gray;
+  font-size: inherit;
+  margin: 0;
+}
+
+.like-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.like-button {
+  height: min-content;
+  border: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: initial;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.like-button:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.wholiked {
+  color: gray;
+  margin: 0;
+  font-size: small;
+}
