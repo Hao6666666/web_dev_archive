@@ -1,7 +1,3 @@
-# INFO6250 - Web Dev Tools and Methods
-
-This repository is how you will receive and submit your assignments and projects.
-
 Key parts:
 
 - README - this document
